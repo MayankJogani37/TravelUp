@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="build.css">
+    <title>Touridsm Site</title>
+</head>
+<body class="bg-gradient-to-r from-slate-300 via-slate-100  to-slate-300">
+    <nav class="bg-cover  sm:flex sm:flex-col sm:justify-between nav-image "
+        style="background-image: url(./image/bg2.jpg);">
+        <!-- <video autoplay loop muted class="-z-10 absolute ">
+            <source  src="./image/bg-video.mp4" type="video/mp4"  />
+            Your browser does not support the video tag.
+        </video> -->
+        <div class="grid grid-rows-2 grid-flow-col  gap-x-4 sm:flex sm:justify-between sm:py-12 sm:text-center">
+            <div class=" col-span-2 sm:flex sm:w-80 sm:ml-3 sm:items-center">
+                <img class=" w-32 col-span-2 " src="./image/logo.png" alt="">
+            </div>
+            <div class="   m-4 mb-0 text-gray-50 font-serif row-span-3 inline-block  sm:flex sm:items-center   ">
+                <ul class=" ml-16 space-y-4 sm:space-y-0 sm:flex sm:ml-0 sm:text-2xl sm:space-x-4">
+                    <a href="#">
+                        <li class=" text-slate-900 font-bold"><i class="animate-pulse fa-solid fa-house"></i> Home</li>
+                    </a>
+                    <a href="#place">
+                        <li><i class=" animate-pulse fa-solid fa-building"></i> Places</li>
+                    </a>
+                    <a href="#services">
+                        <li class="  text-slate-900 font-bold"> <i class="animate-pulse fa-solid fa-user-tie"></i>
+                            Services</li>
+                    </a>
+                    <a href="./login.html">
+                        <li class=" "><i class="animate-pulse fa-solid fa-user"></i> Login</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col text-center">
+                <h1 class="animate-pulse my-2 font-serif font-bold text-2xl text-yellow-300">Experience</h1>
+                <h1 class="animate-bounce my-2 font-serif font-bold text-xl text-yellow-300"> Nature | Adventure |
+                    Thrill | Peace</h1>
+                <!-- <button class="transition my-2  ease-in-out rounded-2xl px-3 text-white bg-sky-800 hover:-translate-y-1 hover:scale-110 hover:bg-sky-500 duration-75 ">Explore</button> -->
+            </div>
+        </div>
+        <div class=" flex justify-around mb-2 overflow-auto sm:mt-24">
+            <div class="font-mono text-slate-800">
+                <i class="animate-pulse fa-solid fa-users sm:text-3xl"></i>
+                <p class="text-[8px]  font-bold sm:text-xl"> 1,40,000+ <br>Participants
+                </p>
+            </div>
+            <div class="font-mono text-slate-800">
+                <i class="animate-pulse fa-solid fa-user-group sm:text-3xl"></i>
+                <p class="text-[8px]  font-bold sm:text-xl"> 1600+<br>Volunteers
+                </p>
+            </div>
+            <div class="font-mono text-slate-800">
+                <i class="animate-pulse fa-solid fa-tent sm:text-3xl"></i>
+                <p class="text-[8px] font-bold sm:text-xl"> 45+<br>Treks
+                </p>
+            </div>
+            <div class="font-mono text-slate-800">
+                <i class="animate-pulse fa-brands fa-font-awesome sm:text-3xl"></i>
+                <p class="text-[8px]  font-bold sm:text-xl "> 8<br>Years
+                </p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="place" class=" text-center m-14">
+            <h2 class="font-serif text-base font-extrabold sm:text-4xl">You'll fall in love with India</h2>
+            <h3 class=" font-sans text-sm text-gray-900 sm:text-xl">Explore India from Kashmir to Kaniyakumari</h3><br>
+            <hr>
+        </div>
+        <div>
+            <h1
+                class="font-serif font-extrabold text-3xl py-5 my-5  drop-shadow-lg  bg-gradient-to-r from-slate-100 via-slate-300  to-slate-100 text-slate-800 text-center">
+                North India</h1>
+        </div>
+
+        <div class="snap-x flex snap-mandatory overflow-scroll px-10 space-x-4  ">
+            <div class="drop-shadow-xl flex-shrink-0 snap-center  ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/n1.jpg" alt="delhi" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Delhi</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/n5.jpg" alt="leh ladakh" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Leh Ladakh</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class=" shadow-2xl w-80 h-64 rounded-3xl" src="image/n6.jpg" alt="kashmir" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Kashmir</div>
+            </div>
+            <div class="drop-shadow-xl  flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/n2.jpg" alt="Kullu and Manal" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Kullu and Manal</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/n3.jpg" alt="dalhousie" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Dalhousie</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/n4.jpg" alt="nainital" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Nainital</div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h1
+                class="font-serif font-extrabold text-3xl py-5 my-5 drop-shadow-lg  bg-gradient-to-r from-slate-100 via-slate-300  to-slate-100 text-slate-800 text-center">
+                Central India</h1>
+        </div>
+        <div class="snap-x flex snap-mandatory overflow-scroll px-10 space-x-4  ">
+            <div class="drop-shadow-xl flex-shrink-0 snap-center  ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/c1.jpg" alt="hampi" />
+                <div
+                    class="text-slate-700 font-serif text-2xl font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Hampi</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/c2.jpg" alt="Bandhavgarh National Park" />
+                <div
+                    class="text-slate-700 font-serif text-2xl font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Bandhavgarh</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/c3.jpg" alt="pachmarhi" />
+                <div
+                    class="text-slate-700 font-serif text-2xl font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Pachmarhi</div>
+            </div>
+            <div class="drop-shadow-xl  flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/c4.jpg" alt="Gwalior" />
+                <div
+                    class="text-slate-700 font-serif text-2xl font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Gwalior</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/c5.jpg" alt="orchha" />
+                <div
+                    class="text-slate-700 font-serif text-2xl font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Orchha</div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h1
+                class="font-serif font-extrabold text-3xl py-5 my-5 drop-shadow-lg  bg-gradient-to-r from-slate-100 via-slate-300  to-slate-100  text-slate-800 text-center">
+                South India</h1>
+        </div>
+        <div class="snap-x flex snap-mandatory overflow-scroll px-10 space-x-4  ">
+            <div class="drop-shadow-xl flex-shrink-0 snap-center  ">
+                <img class=" shadow-2xl w-80 h-64 rounded-3xl" src="image/s1.jpg" alt="kodaikanal " />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Kodaikanal </div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/s2.jpg" alt="Ooty  " />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Ooty</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/s3.jpg" alt="p Gokarna" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Gokarna</div>
+            </div>
+            <div class="drop-shadow-xl  flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/s4.jpg" alt="Varkala" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Varkala</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/s5.jpg" alt="Mahabalipuram" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Mahabalipuram</div>
+            </div>
+            <div class="drop-shadow-xl flex-shrink-0 snap-center ">
+                <img class="shadow-2xl w-80 h-64 rounded-3xl" src="image/s6.jpg" alt="Pondicherry" />
+                <div
+                    class="text-slate-700 text-2xl font-serif font-bold underline underline-offset-2 hover:text-black text-center py-3">
+                    Pondicherry</div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <!-- customer segment -->
+        <div id="services" class="relative">
+            <div class="customer-bg bg-center bg-cover m-6 rounded-3xl">
+                <div class="mt-10 pt-11 pb-16 px-3">
+                    <h1 class=" font-serif text-zinc-200 text-center text-lg font-bold sm:text-2xl sm:font-extrabold ">
+                        Always in our customer Favour</h1>
+                    <h2 class=" font-serif text-zinc-200 text-center sm:text-xl sm:font-bold ">Who are always with tight
+                        Budget</h2>
+                </div>
+            </div>
+            <div class="top-28 absolute sm:flex sm:mx-11">
+                <div class="flex flex-col  text-center mx-12 my-3 py-4 bg-white rounded-3xl drop-shadow-2xl sm:mx-3">
+                    <div class="animate-pulse flex justify-center">
+                        <img src="image/cs1.png" alt="">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h1 class="font-serif font-bold py-4">Ammenties Selection</h1>
+                        <h2>It's totaly on you what you want and what you want to let it go on Hotel Selection process.
+                        </h2>
+                    </div>
+                </div>
+                <div class="flex flex-col text-center mx-12 my-3 py-4 bg-white rounded-3xl drop-shadow-2xl sm:mx-3">
+                    <div class="animate-pulse flex justify-center">
+                        <img src="image/cs2.png" alt="">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h1 class="font-serif font-bold py-4">Visa Ready</h1>
+                        <h2>Just 32 Hours - What it takes get your Visa Ready and other documentation necessary for
+                            travel.</h2>
+                    </div>
+                </div>
+                <div class="flex flex-col text-center mx-12 my-3 py-4 bg-white rounded-3xl drop-shadow-2xl sm:mx-3">
+                    <div class="animate-pulse flex justify-center">
+                        <img src="image/cs3.png" alt="">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h1 class="font-serif font-bold py-4">Personalized Travel Plans</h1>
+                        <h2>We have wide Varieties of Hotel & Resorts to accomodate you. 3D4N or 15D16N totally upto
+                            you.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-[47rem] m-14 sm:mt-80">
+            <h2 class="font-serif text-base font-extrabold sm:text-4xl">How Our Customers felt for Us</h2>
+            <h3 class="font-sans text-sm text-gray-900 sm:text-xl">Who are in extreme love with friendly & inviting
+                people</h3><br>
+            <hr>
+        </div>
+        <div class=" flex flex-col items-center ">
+            <div class="w-2/3 py-10">
+                <div class="flex  space-x-4">
+                    <div>
+                        <img class="h-16 w-16 rounded-full" src="image/pr1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-serif font-bold">Fannie Rowe</h1>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+
+                    </div>
+                </div>
+                <div>
+                    <h2 class="indent-20 text-justify">Snow Trekking in Manali the most memorable trekking experience
+                        with Invincible. Not only everything was perfect, but we felt, in every instance, that our
+                        guides and the organization truly cared about us.</h2>
+                </div>
+                <br>
+                <hr class="border-gray-300 border-2">
+            </div>
+            <div class="w-2/3 py-10">
+                <div class="flex  space-x-4">
+                    <div>
+                        <img class="h-16 w-16 rounded-full" src="image/pr2.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-serif font-bold">Bob Marley</h1>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="indent-20 text-justify">Best memories emerge from here! I have completed two winter
+                        treks, Manali and Dalhousie from Invincible. The services are exceptional when compared to other
+                        trekking organizations as I have been with others also. Best quality home-made food, separate
+                        accommodation for girls and boys felt safe, if being a girl you wished to go on a solo trip, I
+                        bet Invincible is the safest. </h2>
+                </div>
+                <br>
+                <hr class="border-gray-300 border-2">
+            </div>
+            <div class="w-2/3 py-10">
+                <div class="flex  space-x-4">
+                    <div>
+                        <img class="h-16 w-16 rounded-full" src="image/pr3.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-serif font-bold">John conner</h1>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="indent-20 text-justify">This was the first time I had traveled with Invincible at
+                        Saputara. The organization specializes in adventure camps. The adventure style tented
+                        accommodation and the food was excellent. The instructor who accompanied us was outstanding,
+                        passionate, informative, engaging, and entertaining. The itinerary was very well thought out,
+                        combing adventure and fun activities! I would highly recommend Invincible to anyone looking for
+                        an adventure cum fun event with delicious food - they will deliver!</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-slate-900">
+        <div class="mx-4 sm:flex sm:justify-evenly sm:items-end">
+            <div class=" text-center py-7 sm:text-left sm:w-1/3">
+                <div class="flex flex-col items-center sm:items-start">
+                    <img class="h-36 animate-pulse " src="image/logo.png" alt="">
+                    <h1 class="px-7 text-slate-100">Travel Up is a Non Government Organization, being run by young
+                        students for social reformation and building the nation with moral values and ethics.</h1>
+                </div>
+            </div>
+            <div class="text-center py-7 sm:py-20">
+                <h1 class="px-7 text-slate-200 font-serif font-bold py-3 underline underline-offset-4">Newsletter</h1>
+                <h2 class="px-7 text-slate-100 py-2">Stay update with our latest</h2>
+                <div class="flex space-x-2 px-7">
+                    <input type="email" placeholder="  Enter Email" class="rounded-lg">
+                    <button type="button"
+                        class="inline-block px-6 py-2.5 bg-red-300 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out">Subscribe</button>
+                </div>
+            </div>
+            <div class="text-center py-7 sm:py-24">
+                <h1 class="px-7 text-slate-200 font-serif font-bold underline underline-offset-4">Follow Us</h1>
+                <h2 class="px-7 text-slate-100">Let us be social</h2>
+                <i class=" fa-brands fa-facebook text-slate-100 text-2xl px-2"></i>
+                <i class=" fa-brands fa-twitter text-slate-100 text-2xl px-2"></i>
+                <i class=" fa-brands fa-instagram text-slate-100 text-2xl px-2"></i>
+            </div>
+        </div>
+        <div class="bg-slate-800 font-serif text-slate-100 text-center text-xl">&copy;copyright 2022</div>
+    </footer>
+</body>
+</html>
